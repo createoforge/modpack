@@ -1,0 +1,173 @@
+type = menu
+
+customization-meta {
+  identifier = playmode
+  renderorder = foreground
+}
+
+customization {
+  hoversound = config/fancymenu/audio/hover.wav
+  orientation = mid-centered
+  buttonaction = joinserver
+  backgroundhovered = config/fancymenu/images/multiplayer.png
+  description = Survival&nMultiplayer
+  label = 
+  clicksound = config/fancymenu/audio/click.wav
+  x = -64
+  width = 128
+  action = addbutton
+  y = -64
+  backgroundnormal = config/fancymenu/images/multiplayer.png
+  value = nathan-server.anondns.net:25566
+  height = 128
+}
+
+customization {
+  orientation = mid-centered
+  slim = false
+  scale = 30
+  headrotationy = 45.0
+  headrotationx = 135.0
+  autorotation = false
+  showname = false
+  crouching = false
+  x = 8
+  action = addentity
+  y = -6
+  playername = Grumm
+  bodyrotationx = 135.0
+  bodyrotationy = 0.0
+  parrot = false
+}
+
+customization {
+  orientation = mid-centered
+  slim = false
+  scale = 30
+  headrotationy = 15.0
+  headrotationx = 180.0
+  autorotation = false
+  showname = false
+  crouching = false
+  x = -18
+  action = addentity
+  y = 15
+  playername = %playername%
+  bodyrotationx = 180.0
+  bodyrotationy = 0.0
+  parrot = false
+}
+
+customization {
+  orientation = mid-centered
+  slim = false
+  scale = 30
+  headrotationy = -15.0
+  headrotationx = 0.0
+  skinurl = https://www.minecraftskins.com/uploads/skins/2021/01/30/zombie-16572193.png?v302
+  autorotation = false
+  showname = true
+  crouching = false
+  x = -18
+  action = addentity
+  y = 40
+  bodyrotationx = 0.0
+  bodyrotationy = 0.0
+  parrot = false
+}
+
+customization {
+  hoversound = config/fancymenu/audio/hover.wav
+  orientation = mid-centered
+  buttonaction = loadworld
+  backgroundhovered = config/fancymenu/images/sandbox.png
+  description = Creative&nSolo
+  label = 
+  clicksound = config/fancymenu/audio/click.wav
+  x = 96
+  width = 64
+  action = addbutton
+  y = -32
+  backgroundnormal = config/fancymenu/images/sandbox.png
+  value = mwsandbox
+  height = 64
+}
+
+customization {
+  orientation = top-left
+  slim = false
+  scale = 15
+  headrotationy = 45.0
+  headrotationx = 45.0
+  autorotation = false
+  showname = false
+  crouching = true
+  x = 546
+  action = addentity
+  y = 263
+  playername = %playername%
+  bodyrotationx = 45.0
+  bodyrotationy = 0.0
+  parrot = false
+}
+
+customization {
+  hoversound = config/fancymenu/audio/hover.wav
+  orientation = mid-centered
+  buttonaction = loadworld
+  backgroundhovered = config/fancymenu/images/solo.png
+  description = Survival&nSolo&nTemporarily under maintenance
+  label = 
+  clicksound = config/fancymenu/audio/click.wav
+  x = -160
+  width = 64
+  action = addbutton
+  y = -32
+  backgroundnormal = config/fancymenu/images/solo.png
+  value = mwlocal
+  height = 64
+}
+
+customization {
+  orientation = mid-centered
+  slim = false
+  scale = 15
+  headrotationy = 60.0
+  headrotationx = 180.0
+  autorotation = false
+  showname = false
+  crouching = false
+  x = -123
+  action = addentity
+  y = 18
+  playername = %playername%
+  bodyrotationx = 180.0
+  bodyrotationy = 0.0
+  parrot = false
+}
+
+customization {
+  orientation = top-left
+  buttonaction = openfile
+  x = 0
+  width = 21
+  action = addbutton
+  y = 0
+  backgroundhovered = config/fancymenu/images/transp.png
+  label = 
+  backgroundnormal = config/fancymenu/images/transp.png
+  value = ../server
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  centered = false
+  x = -56
+  action = addtext
+  y = -88
+  scale = 1.0
+  value = Playing as:§n#username#
+}
+

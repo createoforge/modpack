@@ -1,0 +1,13 @@
+type = menu
+
+customization-meta {
+  identifier = death
+  renderorder = foreground
+}
+
+customization {
+  path = config/fancymenu/audio/death.wav
+  loop = false
+  action = addaudio
+}
+

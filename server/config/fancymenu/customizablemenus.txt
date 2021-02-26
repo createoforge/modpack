@@ -1,0 +1,29 @@
+type = customizablemenus
+
+net.minecraft.client.gui.screen.DirtMessageScreen {
+}
+
+net.minecraft.client.gui.screen.WorldLoadProgressScreen {
+}
+
+net.minecraft.client.gui.screen.IngameMenuScreen {
+}
+
+net.minecraft.client.gui.screen.ConnectingScreen {
+}
+
+net.minecraft.client.gui.screen.DisconnectedScreen {
+}
+
+net.minecraft.client.gui.screen.MainMenuScreen {
+}
+
+net.minecraft.client.gui.screen.WorldSelectionScreen {
+}
+
+com.refinedmods.refinedstorage.screen.grid.GridScreen {
+}
+
+net.minecraft.client.gui.screen.DeathScreen {
+}
+

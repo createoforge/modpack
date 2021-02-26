@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " | ",
+    "---",
+    "   "
+  ],
+  "key": {
+    "|": {
+      "item": "refinedstorage:cable"
+    },
+    "-": {
+      "item": "refinedstorage:quartz_enriched_iron"
+    }
+  },
+  "result": {
+    "item": "refinedstorage:external_storage"
+  }
+}

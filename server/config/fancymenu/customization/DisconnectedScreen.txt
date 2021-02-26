@@ -1,0 +1,65 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.DisconnectedScreen
+  renderorder = foreground
+}
+
+customization {
+  path = config/fancymenu/images/black.png
+  action = texturizebackground
+}
+
+customization {
+  path = config/fancymenu/audio/alert.wav
+  loop = false
+  action = addaudio
+}
+
+customization {
+  identifier = %id=400513%
+  action = hidebutton
+}
+
+customization {
+  hoversound = config/fancymenu/audio/hover.wav
+  orientation = mid-centered
+  buttonaction = joinserver
+  x = -100
+  width = 200
+  action = addbutton
+  y = 13
+  label = Retry
+  value = nathan-server.anondns.net:25566
+  clicksound = config/fancymenu/audio/click.wav
+  height = 20
+}
+
+customization {
+  hoversound = config/fancymenu/audio/hover.wav
+  orientation = mid-centered
+  buttonaction = openlink
+  x = -100
+  width = 200
+  action = addbutton
+  y = 38
+  label = Play Offline
+  value = 
+  clicksound = config/fancymenu/audio/click.wav
+  height = 20
+}
+
+customization {
+  hoversound = config/fancymenu/audio/hover.wav
+  orientation = mid-centered
+  buttonaction = opengui
+  x = -100
+  width = 200
+  action = addbutton
+  y = 63
+  label = Cancel
+  value = net.minecraft.client.gui.screen.MainMenuScreen
+  clicksound = config/fancymenu/audio/click.wav
+  height = 20
+}
+

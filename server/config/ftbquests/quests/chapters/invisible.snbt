@@ -1,0 +1,31 @@
+{
+	id: 4308,
+	filename: "invisible",
+	order_index: 2,
+	title: "Invisible",
+	icon: "minecraft:glass_pane",
+	always_invisible: true,
+	default_quest_shape: "",
+	quests: [
+		{
+			x: -1.0d,
+			y: 0.0d,
+			id: 4309,
+			tasks: [{
+				id: 4310,
+				type: "item",
+				item: "minecraft:dirt"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 0.0d,
+			id: 4311,
+			tasks: [{
+				id: 4312,
+				type: "item",
+				item: "minecraft:gold_ore"
+			}]
+		}
+	]
+}

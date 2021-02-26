@@ -1,0 +1,26 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " I ",
+    " Q ",
+    "QCQ",
+    "TQT"
+  ],
+  "key": {
+    "I": {
+      "item": "create:integrated_circuit"
+    },
+    "Q": {
+      "item": "refinedstorage:quartz_enriched_iron"
+    },
+    "C": {
+      "item": "refinedstorage:machine_casing"
+    },
+    "T": {
+      "item": "create:electron_tube"
+    }
+  },
+  "result": {
+    "item": "refinedstorage:creative_controller"
+  }
+}

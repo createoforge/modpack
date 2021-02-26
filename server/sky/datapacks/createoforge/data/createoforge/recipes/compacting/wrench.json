@@ -1,0 +1,16 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "create:wrench"
+    },
+    {
+      "item": "refinedstorage:quartz_enriched_iron"
+    }
+  ],
+  "results": [
+    {
+      "item": "refinedstorage:wrench"
+    }
+  ]
+}

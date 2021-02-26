@@ -1,0 +1,22 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "create:brass_nugget"
+    },
+    {
+      "item": "create:rose_quartz"
+    }
+  ],
+  "result": {
+    "item": "refinedstorage:quartz_enriched_iron",
+    "count": 2
+  }
+}
+

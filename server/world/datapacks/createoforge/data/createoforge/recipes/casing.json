@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"$|$",
+		"|&|",
+		"$|$"
+	],
+	"key": {
+		"$": {"item": "refinedstorage:quartz_enriched_iron"},
+		"|": {"item": "minecraft:iron_bars"},
+		"&": {"item": "create:brass_casing"}
+	},
+	"result": {
+		"item": "refinedstorage:machine_casing",
+		"count": 1
+	}
+}

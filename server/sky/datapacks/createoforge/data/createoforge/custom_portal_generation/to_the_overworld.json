@@ -1,0 +1,11 @@
+{
+  "schema_version": "imm_ptl:v1",
+  "from": ["minecraft:the_end"], "to": "createoforge:real_overworld",
+  "form": {
+    "type": "imm_ptl:flipping_floor_square",
+    "length": 2, "frame_block": "minecraft:bamboo_plantable_on", "area_block": "minecraft:water",
+    "up_frame_block": "minecraft:grass", "bottom_block": "forge:stone"
+  },
+  "trigger": { "type": "imm_ptl:throw_item", "item": "minecraft:diamond" },
+  "post_invoke_commands": [ "/summon minecraft:lightning_bolt ~ ~ ~" ]
+}

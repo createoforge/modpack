@@ -1,0 +1,3 @@
+identifier = playmode
+title = Play Mode
+allowesc = true

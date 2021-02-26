@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"!-!",
+		"-@-",
+		"!-!"
+	],
+	"key": {
+		"!": {"item": "minecraft:slime_ball"},
+		"-": {"item": "create:fluid_tank"},
+		"@": {"item": "refinedstorage:machine_casing"}
+	},
+	"result": {
+		"item": "refinedstorage:64k_fluid_storage_block",
+		"count": 1
+	}
+}

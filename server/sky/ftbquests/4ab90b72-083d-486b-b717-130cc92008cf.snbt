@@ -1,0 +1,10 @@
+{
+	uuid: "4ab90b72-083d-486b-b717-130cc92008cf",
+	name: "GraceWondergirl",
+	can_edit: false,
+	money: 0L,
+	auto_pin: false,
+	task_progress: {},
+	claimed_rewards: [I;],
+	pinned_quests: [I;]
+}

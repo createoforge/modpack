@@ -1,0 +1,29 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.WorldLoadProgressScreen
+  renderorder = foreground
+}
+
+customization {
+  orientation = top-left
+  shape = rectangle
+  color = #000000
+  x = 0
+  width = %guiwidth%
+  action = addshape
+  y = 0
+  height = %guiheight%
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  centered = false
+  x = -22
+  action = addtext
+  y = -3
+  scale = 1.0
+  value = Loading...
+}
+

@@ -1,0 +1,37 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "create:fluid_tank"
+    },
+    {
+      "item": "create:fluid_tank"
+    },
+    {
+      "item": "create:fluid_tank"
+    },
+    {
+      "item": "create:fluid_tank"
+    },
+    {
+      "item": "create:fluid_tank"
+    },
+    {
+      "item": "create:fluid_tank"
+    },
+    {
+      "item": "create:fluid_tank"
+    },
+    {
+      "item": "create:fluid_tank"
+    },
+    {
+      "item": "refinedstorage:machine_casing"
+    }
+  ],
+  "results": [
+    {
+      "item": "refinedstorage:64k_fluid_storage_block"
+    }
+  ]
+}

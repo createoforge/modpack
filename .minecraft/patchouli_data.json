@@ -1,0 +1,16 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": true,
+  "bookData": {
+    "patchouli:eternal_guide": {
+      "viewedEntries": [
+        "patchouli:test/test_entry"
+      ],
+      "bookmarks": [],
+      "history": [
+        "patchouli:test/test_entry"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}

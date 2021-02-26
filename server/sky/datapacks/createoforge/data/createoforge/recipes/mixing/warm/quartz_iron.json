@@ -1,0 +1,24 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/iron"
+    },
+    {
+      "tag": "forge:ingots/iron"
+    },
+    {
+      "tag": "forge:nuggets/copper"
+    },
+    {
+      "item": "create:polished_rose_quartz"
+    }
+  ],
+  "results": [
+    {
+      "item": "refinedstorage:quartz_enriched_iron",
+      "count": 64
+    }
+  ],
+  "heatRequirement": "heated"
+}

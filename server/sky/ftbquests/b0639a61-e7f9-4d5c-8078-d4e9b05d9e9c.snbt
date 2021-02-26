@@ -1,0 +1,18 @@
+{
+	uuid: "b0639a61-e7f9-4d5c-8078-d4e9b05d9e9c",
+	name: "PoolloverNathan",
+	can_edit: true,
+	money: 0L,
+	auto_pin: false,
+	task_progress: {
+		4247: 1
+	},
+	claimed_rewards: [I;
+		4338,
+		4345,
+		4348,
+		4363,
+		4368
+	],
+	pinned_quests: [I;1]
+}

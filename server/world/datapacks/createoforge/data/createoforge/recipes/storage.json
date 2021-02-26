@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"!-!",
+		"-@-",
+		"!-!"
+	],
+	"key": {
+		"!": {"item": "minecraft:slime_ball"},
+		"-": {"item": "create:adjustable_crate"},
+		"@": {"item": "refinedstorage:machine_casing"}
+	},
+	"result": {
+		"item": "refinedstorage:1k_storage_block",
+		"count": 1
+	}
+}

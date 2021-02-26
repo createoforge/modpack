@@ -1,0 +1,234 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  renderorder = background
+}
+
+customization {
+  path = config/fancymenu/images/black.png
+  action = texturizebackground
+}
+
+customization {
+  identifier = %id=502382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = mid-centered
+  x = -30
+  action = movebutton
+  y = -10
+}
+
+customization {
+  identifier = %id=400382%
+  width = 20
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/images/settings_hover.png
+  backgroundnormal = config/fancymenu/images/settings.png
+}
+
+customization {
+  identifier = %id=400382%
+  path = config/fancymenu/audio/hover.wav
+  action = addhoversound
+}
+
+customization {
+  identifier = %id=400382%
+  path = config/fancymenu/audio/click.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=376382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = top-right
+  x = -12
+  action = movebutton
+  y = 0
+}
+
+customization {
+  identifier = %id=400298%
+  width = 12
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400298%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400298%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/images/transp.png
+  backgroundnormal = config/fancymenu/images/transp.png
+}
+
+customization {
+  identifier = %id=400298%
+  action = sethoverlabel
+  label = S
+}
+
+customization {
+  identifier = %id=400322%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=604382%
+  action = hidebutton
+}
+
+customization {
+  showname = true
+  orientation = bottom-right
+  crouching = false
+  x = -69
+  slim = false
+  action = addentity
+  y = -11
+  scale = 30
+  playername = PoolloverNathan
+  capepath = config/fancymenu/images/black.png
+  parrot = false
+}
+
+customization {
+  hoversound = config/fancymenu/audio/hover.wav
+  orientation = mid-centered
+  onlydisplayin = outgame
+  buttonaction = opencustomgui
+  backgroundhovered = config/fancymenu/images/play_hover.png
+  label = 
+  clicksound = config/fancymenu/audio/click.wav
+  x = -10
+  width = 20
+  action = addbutton
+  y = -10
+  backgroundnormal = config/fancymenu/images/play.png
+  value = playmode
+  height = 20
+}
+
+customization {
+  showname = true
+  orientation = bottom-right
+  crouching = false
+  x = -30
+  slim = false
+  action = addentity
+  y = -12
+  scale = 30
+  playername = Azandfer
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = mid-centered
+  crouching = false
+  x = 0
+  slim = false
+  action = addentity
+  y = -17
+  scale = 30
+  playername = %playername%
+  parrot = false
+}
+
+customization {
+  orientation = bottom-right
+  shadow = false
+  centered = false
+  x = -105
+  action = addtext
+  y = -94
+  scale = 1.0
+  value = Brought to you by:
+}
+
+customization {
+  hideforseconds = 10.0
+  orientation = mid-centered
+  buttonaction = openlink
+  backgroundhovered = config/fancymenu/images/transp.png
+  label = What are you doing? Play!
+  hoverlabel = Stop! I'm not a button!
+  x = -69
+  width = 139
+  action = addbutton
+  y = 10
+  backgroundnormal = config/fancymenu/images/transp.png
+  value = 
+  height = 20
+}
+
+customization {
+  hoversound = config/fancymenu/audio/hover.wav
+  orientation = mid-centered
+  buttonaction = opencustomgui
+  backgroundhovered = config/fancymenu/images/quit_hover.png
+  label = 
+  clicksound = config/fancymenu/audio/click.wav
+  x = 10
+  width = 20
+  action = addbutton
+  y = -10
+  backgroundnormal = config/fancymenu/images/quit.png
+  value = quit
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  multiline = true
+  x = 0
+  action = addwebtext
+  y = 0
+  scale = 1.0
+  url = https://gist.github.com/PoolloverNathan/22c7bd9c3c03ddd21a87dd60d0dc1e04/raw/f58c2f58dc309020bf7a82d9703e865bd4a680c4/createoforge_menu.txt
+}
+
+customization {
+  orientation = top-left
+  buttonaction = opengui
+  x = 121
+  width = 100
+  action = addbutton
+  y = 107
+  label = d
+  value = net.minecraft.client.gui.screen.MemoryErrorScreen
+  height = 20
+}
+

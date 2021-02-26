@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:overworld",
+  "seed": -117346252446362882,
+  "generator": {
+    "settings": "minecraft:overworld",
+    "seed": -117346252446362882,
+    "type": "minecraft:noise",
+    "biome_source": {
+      "type": "minecraft:vanilla_layered",
+      "seed": -117346252446362882,
+      "large_biomes": false,
+      "legacy_biome_init_layer": true
+    }
+  }
+}

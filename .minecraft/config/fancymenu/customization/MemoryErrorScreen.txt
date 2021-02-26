@@ -1,0 +1,51 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MemoryErrorScreen
+  renderorder = foreground
+}
+
+customization {
+  identifier = %id=345382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=505382%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  shape = rectangle
+  color = #000000
+  x = 0
+  width = %guiwidth%
+  action = addshape
+  y = 0
+  height = %guiheight%
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  centered = false
+  x = -196
+  action = addtext
+  y = -13
+  scale = 1.0
+  value = Minecraft has ran out of memory and you will be returned to the title screen.
+}
+
+customization {
+  orientation = mid-centered
+  buttonaction = opengui
+  x = -50
+  width = 100
+  action = addbutton
+  y = 0
+  label = OK
+  value = net.minecraft.client.gui.screen.MainMenuScreen
+  height = 20
+}
+

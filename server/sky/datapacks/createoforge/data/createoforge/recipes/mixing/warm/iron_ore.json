@@ -1,0 +1,39 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "forge:cobblestone"
+    },
+    {
+      "tag": "forge:cobblestone"
+    },
+    {
+      "tag": "forge:cobblestone"
+    },
+    {
+      "tag": "forge:cobblestone"
+    },
+    {
+      "tag": "forge:cobblestone"
+    },
+    {
+      "tag": "forge:cobblestone"
+    },
+    {
+      "tag": "forge:cobblestone"
+    },
+    {
+      "tag": "forge:cobblestone"
+    },
+    {
+      "tag": "forge:plates/iron"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:iron_ore",
+      "count": 8
+    }
+  ],
+  "heatRequirement": "heated"
+}

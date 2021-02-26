@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"!_!",
+		"-@-",
+		"!-!"
+	],
+	"key": {
+		"!": {"item": "create:electron_tube"},
+		"_": {"item": "create:integrated_circuit"},
+		"@": {"item": "refinedstorage:machine_casing"},
+        "-": {"item": "minecraft:gold_ingot"}
+	},
+	"result": {
+		"item": "refinedstorage:creative_controller",
+		"count": 1
+	}
+}

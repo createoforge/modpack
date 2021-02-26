@@ -1,0 +1,31 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.WorldSelectionScreen
+  renderorder = foreground
+}
+
+customization {
+  orientation = top-right
+  buttonaction = opengui
+  x = -105
+  width = 100
+  action = addbutton
+  y = 5
+  label = Multiplayer
+  value = net.minecraft.client.gui.screen.MultiplayerScreen
+  height = 20
+}
+
+customization {
+  orientation = bottom-centered
+  buttonaction = openfile
+  x = 159
+  width = 100
+  action = addbutton
+  y = -52
+  label = Open folder
+  value = saves
+  height = 20
+}
+

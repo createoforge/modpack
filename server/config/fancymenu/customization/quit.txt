@@ -1,0 +1,47 @@
+type = menu
+
+customization-meta {
+  identifier = quit
+  renderorder = foreground
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  centered = false
+  x = -46
+  action = addtext
+  y = -23
+  scale = 1.0
+  value = Delete character?
+}
+
+customization {
+  hoversound = config/fancymenu/audio/hover.wav
+  hideforseconds = 5.0
+  orientation = mid-centered
+  buttonaction = quitgame
+  x = -50
+  width = 100
+  action = addbutton
+  y = 10
+  label = Yes
+  value = 
+  clicksound = config/fancymenu/audio/death.wav
+  height = 20
+}
+
+customization {
+  hoversound = config/fancymenu/audio/hover.wav
+  orientation = mid-centered
+  buttonaction = opengui
+  x = -50
+  width = 100
+  action = addbutton
+  y = -10
+  label = No
+  value = net.minecraft.client.gui.screen.MainMenuScreen
+  clicksound = config/fancymenu/audio/click.wav
+  height = 20
+}
+

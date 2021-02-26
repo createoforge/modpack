@@ -1,0 +1,33 @@
+{
+    "name": "Water Wheel",
+    "icon": "create:water_wheel",
+    "category": "patchouli:test_category",
+    "pages": [
+        {
+            "type": "spotlight",
+            "text": "This device harnesses the power of flowing water to generate motion.",
+            "item": "create:water_wheel"
+        },
+        {
+            "type": "multiblock",
+"multiblock": {
+    "pattern": [
+        ["123", "___"],
+        ["_W4", " 0 "],
+        ["765", "___"]
+    ],
+    "mapping": {
+        "W": "create:water_wheel[facing=west]",
+        "0": "create:shaft[axis=x]",
+        "1": "minecraft:water",
+        "2": "minecraft:water[level=7]",
+        "3": "minecraft:water[level=6]",
+        "4": "minecraft:water[level=8]",
+        "5": "minecraft:water[level=7]",
+        "6": "minecraft:water[level=6]",
+        "7": "minecraft:water[level=5]"
+    },
+    "symmetrical": true
+}}
+    ]
+}

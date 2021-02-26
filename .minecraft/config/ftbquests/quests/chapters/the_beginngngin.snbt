@@ -1,0 +1,500 @@
+{
+	id: 4245,
+	filename: "the_beginngngin",
+	order_index: 1,
+	title: "Adventure Log",
+	icon: "ftbquests:book",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			id: 4246,
+			tasks: [{
+				id: 4247,
+				type: "item",
+				item: "minecraft:dirt"
+			}]
+		},
+		{
+			title: "Uhh...",
+			x: -2.0d,
+			y: 0.0d,
+			subtitle: "So some programmers trapped me in the sky dimension for some test and something about create and cogs blah blah blah I wasn't really listening. How do I get home?",
+			id: 4248,
+			tasks: [{
+				id: 4254,
+				type: "checkmark",
+				icon: {
+					id: "minecraft:ender_pearl",
+					Count: true,
+					tag: {
+						Enchantments: [{
+							lvl: true,
+							id: "minecraft:protection"
+						}]
+					}
+				}
+			}],
+			rewards: [{
+				id: 4321,
+				type: "item",
+				item: "create:tree_fertilizer",
+				count: 64
+			}]
+		},
+		{
+			title: "Workbench go brrr",
+			x: 0.0d,
+			y: 2.0d,
+			subtitle: "If I want to get home, I should probably make some stuff.",
+			dependencies: [I;4252],
+			hide: true,
+			id: 4250,
+			tasks: [{
+				id: 4251,
+				type: "item",
+				item: "minecraft:crafting_table"
+			}]
+		},
+		{
+			title: "Log.zip",
+			x: -1.0d,
+			y: 1.0d,
+			subtitle: "Punching trees to death is pretty boring, and the devs didn't even give me a vein miner.",
+			dependencies: [I;4248],
+			hide: true,
+			id: 4252,
+			tasks: [{
+				id: 4253,
+				type: "item",
+				item: "minecraft:oak_log"
+			}]
+		},
+		{
+			title: "I. NEED. TOOLS.",
+			x: 1.0d,
+			y: 1.0d,
+			subtitle: "An axe might make the tree-punching a little faster. I don't know what a pickaxe, shovel, or hoe will be useful for but I assume I'll need it.",
+			dependencies: [I;4250],
+			hide: true,
+			id: 4255,
+			tasks: [
+				{
+					id: 4256,
+					type: "item",
+					item: {
+						id: "minecraft:wooden_pickaxe",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 4257,
+					type: "item",
+					item: {
+						id: "minecraft:wooden_axe",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 4258,
+					type: "item",
+					item: {
+						id: "minecraft:wooden_shovel",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 4259,
+					type: "item",
+					item: {
+						id: "minecraft:wooden_hoe",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Stone Age",
+			x: 2.0d,
+			y: 0.0d,
+			subtitle: "I see another island 23 blocks away... why such a specific number? Well at least it has the newest technology, rocks.",
+			dependencies: [I;4255],
+			hide: true,
+			id: 4260,
+			tasks: [{
+				id: 4261,
+				type: "item",
+				item: "minecraft:cobblestone"
+			}]
+		},
+		{
+			title: "Isn't quartz just really smooth stone?",
+			x: 1.0d,
+			y: -1.0d,
+			subtitle: "So what if I make some smooth stone even smoother?",
+			dependencies: [I;4260],
+			hide: true,
+			id: 4262,
+			tasks: [{
+				id: 4263,
+				type: "item",
+				title: "8x Ultra-smooth Stone",
+				item: "minecraft:quartz_block",
+				count: 8L
+			}]
+		},
+		{
+			title: "Pull-apart",
+			x: 0.0d,
+			y: -2.0d,
+			subtitle: "The quartz is hard enough to require a pickaxe to mine, but smooth enough to where I can pull it apart with my bare hands.",
+			dependencies: [I;4262],
+			hide: true,
+			id: 4264,
+			tasks: [{
+				id: 4265,
+				type: "item",
+				item: "minecraft:quartz",
+				count: 32L
+			}]
+		},
+		{
+			title: "I'm still andesited on what my favorite rock is.",
+			x: -1.0d,
+			y: -1.0d,
+			dependencies: [I;4264],
+			hide: true,
+			id: 4266,
+			tasks: [{
+				id: 4267,
+				type: "item",
+				item: "minecraft:andesite"
+			}]
+		},
+		{
+			title: "I remember something",
+			x: -2.0d,
+			y: -2.0d,
+			subtitle: "I remember the programmers saying something about andesite alloy, that's probably why that's my favorite rock...",
+			dependencies: [I;
+				4266,
+				4278
+			],
+			hide: true,
+			id: 4268,
+			tasks: [{
+				id: 4269,
+				type: "item",
+				item: "create:andesite_alloy"
+			}]
+		},
+		{
+			title: "Microtree",
+			x: -2.0d,
+			y: 2.0d,
+			subtitle: "If I want to keep my wood, I should probably keep some of these handy...",
+			dependencies: [I;4252],
+			hide: true,
+			id: 4270,
+			tasks: [{
+				id: 4271,
+				type: "item",
+				item: "minecraft:oak_sapling"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 1.0d,
+			dependencies: [I;4270],
+			hide: true,
+			id: 4274,
+			tasks: [{
+				id: 4275,
+				type: "item",
+				item: "minecraft:kelp",
+				count: 96L
+			}]
+		},
+		{
+			title: "There is another.",
+			x: 4.0d,
+			y: 0.0d,
+			subtitle: "I see a slightly bigger island, 22 blocks away from the stone one, with a bunch of metal on it. Maybe there's a hidden diamond?",
+			dependencies: [I;4260],
+			hide: true,
+			id: 4276,
+			tasks: [{
+				id: 4277,
+				type: "item",
+				item: "minecraft:iron_ore"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -4.0d,
+			dependencies: [I;4284],
+			hide: true,
+			size: 0.07d,
+			id: 4278
+		},
+		{
+			title: "Log Oven",
+			x: 3.0d,
+			y: 1.0d,
+			subtitle: "This might be useful for cooking stuff...",
+			dependencies: [I;4260],
+			hide: true,
+			id: 4282,
+			tasks: [{
+				id: 4283,
+				type: "item",
+				item: "minecraft:furnace"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: -1.0d,
+			dependencies: [I;
+				4276,
+				4282
+			],
+			hide: true,
+			id: 4284,
+			tasks: [{
+				id: 4285,
+				type: "item",
+				item: "minecraft:iron_ingot"
+			}]
+		},
+		{
+			title: "Now I see why they said something about cogs.",
+			x: -3.0d,
+			y: -1.0d,
+			subtitle: "It's so... poky...",
+			dependencies: [I;4268],
+			hide: true,
+			id: 4286,
+			tasks: [
+				{
+					id: 4287,
+					type: "item",
+					item: "create:cogwheel",
+					count: 8L
+				},
+				{
+					id: 4288,
+					type: "item",
+					item: "create:large_cogwheel",
+					count: 2L
+				}
+			]
+		},
+		{
+			title: "Home Depot",
+			x: -4.0d,
+			y: -2.0d,
+			subtitle: "A chest but 1/27th of the size!",
+			dependencies: [I;4268],
+			hide: true,
+			id: 4289,
+			tasks: [{
+				id: 4290,
+				type: "item",
+				item: "create:depot"
+			}]
+		},
+		{
+			title: "Some impressive machinery",
+			x: -3.0d,
+			y: -3.0d,
+			subtitle: "No, really. My ingots are impressed!",
+			dependencies: [I;
+				4268,
+				4286,
+				4295
+			],
+			hide: true,
+			id: 4291,
+			tasks: [{
+				id: 4292,
+				type: "item",
+				item: "create:mechanical_press"
+			}]
+		},
+		{
+			title: "Sheet.",
+			x: -4.0d,
+			y: -4.0d,
+			subtitle: "This might be useful for getting out...",
+			dependencies: [I;
+				4289,
+				4291
+			],
+			hide: true,
+			id: 4293,
+			tasks: [{
+				id: 4294,
+				type: "item",
+				item: "create:iron_sheet"
+			}]
+		},
+		{
+			title: "Wheel Decide",
+			x: -2.0d,
+			y: -4.0d,
+			subtitle: "This is mentioned in the Eternal Guide...",
+			hide_dependency_lines: true,
+			dependencies: [I;
+				4268,
+				4303
+			],
+			hide: true,
+			id: 4295,
+			tasks: [
+				{
+					id: 4296,
+					type: "item",
+					item: "create:water_wheel"
+				},
+				{
+					id: 4297,
+					type: "item",
+					item: "minecraft:water_bucket"
+				}
+			]
+		},
+		{
+			x: -3.0d,
+			y: 3.0d,
+			dependencies: [I;
+				4282,
+				4274
+			],
+			hide: true,
+			id: 4299,
+			tasks: [{
+				id: 4300,
+				type: "item",
+				item: "minecraft:dried_kelp",
+				count: 96L
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 2.0d,
+			dependencies: [I;4299],
+			hide: true,
+			id: 4301,
+			tasks: [{
+				id: 4302,
+				type: "item",
+				item: "create:belt_connector",
+				count: 16L
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 0.0d,
+			subtitle: "As I was studying my predicament, I discovered this strange book.",
+			dependencies: [I;4301],
+			hide: true,
+			id: 4303,
+			tasks: [{
+				id: 4304,
+				type: "item",
+				item: {
+					id: "patchouli:guide_book",
+					Count: true,
+					tag: {
+						"patchouli:book": "patchouli:eternal_guide"
+					}
+				}
+			}]
+		},
+		{
+			title: "Good Gold!",
+			x: 5.0d,
+			y: 1.0d,
+			subtitle: "It's so shiny!",
+			dependencies: [I;
+				4311,
+				4276
+			],
+			hide: true,
+			id: 4306,
+			tasks: [{
+				id: 4307,
+				type: "item",
+				item: "minecraft:gold_ore"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 0.0d,
+			dependencies: [I;4306],
+			hide: true,
+			id: 4313,
+			tasks: [{
+				id: 4314,
+				type: "item",
+				item: "minecraft:gold_ingot"
+			}]
+		},
+		{
+			title: "A bendy ticket to money",
+			x: -5.0d,
+			y: -3.0d,
+			subtitle: "It might be helpful to make a wrench...",
+			dependencies: [I;
+				4293,
+				4289,
+				4291,
+				4313
+			],
+			hide: true,
+			id: 4315,
+			tasks: [{
+				id: 4316,
+				type: "item",
+				item: "create:golden_sheet"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -1.0d,
+			dependencies: [I;4315],
+			id: 4317,
+			tasks: [{
+				id: 4318,
+				type: "item",
+				item: "create:wrench"
+			}]
+		},
+		{
+			title: "Wrench 2: Electric Boogaloo",
+			x: -5.0d,
+			y: 1.0d,
+			subtitle: "Which wrench wrenched which block?",
+			dependencies: [I;4317],
+			id: 4319,
+			tasks: [{
+				id: 4320,
+				type: "item",
+				item: "refinedstorage:wrench"
+			}]
+		}
+	]
+}

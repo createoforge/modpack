@@ -1,0 +1,16 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "create:adjustable_crate"
+    },
+    {
+      "item": "refinedstorage:machine_casing"
+    }
+  ],
+  "results": [
+    {
+      "item": "refinedstorage:1k_storage_block"
+    }
+  ]
+}

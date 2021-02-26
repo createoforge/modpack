@@ -1,0 +1,3 @@
+identifier = death
+title = 
+allowesc = false

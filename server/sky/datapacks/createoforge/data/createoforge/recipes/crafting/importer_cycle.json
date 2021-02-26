@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A"
+  ],
+  "key": {
+    "A": {
+      "item": "refinedstorage:external_storage"
+    }
+  },
+  "result": {
+    "item": "refinedstorage:importer"
+  }
+}

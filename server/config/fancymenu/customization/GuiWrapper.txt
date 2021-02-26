@@ -1,0 +1,12 @@
+type = menu
+
+customization-meta {
+  identifier = com.feed_the_beast.mods.ftbguilibrary.widget.GuiWrapper
+  renderorder = foreground
+}
+
+customization {
+  path = config/fancymenu/images/black.png
+  action = texturizebackground
+}
+

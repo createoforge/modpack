@@ -1,0 +1,13 @@
+{
+	uuid: "39e90609-036a-4fa4-9fab-0828e765b27e",
+	name: "Azandfer",
+	can_edit: true,
+	money: 0L,
+	auto_pin: false,
+	task_progress: {
+		4351: 1,
+		4353: 1
+	},
+	claimed_rewards: [I;4363],
+	pinned_quests: [I;]
+}

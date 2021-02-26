@@ -1,0 +1,37 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.DeathScreen
+  renderorder = background
+}
+
+customization {
+  path = config/fancymenu/images/black.png
+  action = texturizebackground
+}
+
+customization {
+  path = config/fancymenu/audio/death.wav
+  loop = false
+  action = addaudio
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -10
+}
+
+customization {
+  identifier = %id=400322%
+  seconds = 13.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=400346%
+  action = hidebutton
+}
+
