@@ -6,8 +6,47 @@ customization-meta {
 }
 
 customization {
-  path = config/fancymenu/images/black.png
+  path = config/fancymenu/images/backdrop.png
   action = texturizebackground
+}
+
+customization {
+  path = config/fancymenu/audio/menu.wav
+  loop = true
+  action = addaudio
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = mid-centered
+  x = 144
+  action = movebutton
+  y = -152
+}
+
+customization {
+  identifier = %id=400322%
+  width = 64
+  action = resizebutton
+  height = 64
+}
+
+customization {
+  identifier = %id=400322%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400322%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/images/playh.png
+  backgroundnormal = config/fancymenu/images/play.png
+}
+
+customization {
+  identifier = %id=400346%
+  action = hidebutton
 }
 
 customization {
@@ -18,16 +57,16 @@ customization {
 customization {
   identifier = %id=400382%
   orientation = mid-centered
-  x = -30
+  x = -296
   action = movebutton
-  y = -10
+  y = -44
 }
 
 customization {
   identifier = %id=400382%
-  width = 20
+  width = 64
   action = resizebutton
-  height = 20
+  height = 64
 }
 
 customization {
@@ -67,40 +106,6 @@ customization {
 
 customization {
   identifier = %id=400298%
-  orientation = top-right
-  x = -12
-  action = movebutton
-  y = 0
-}
-
-customization {
-  identifier = %id=400298%
-  width = 12
-  action = resizebutton
-  height = 20
-}
-
-customization {
-  identifier = %id=400298%
-  action = setbuttonlabel
-  value = 
-}
-
-customization {
-  identifier = %id=400298%
-  action = setbuttontexture
-  backgroundhovered = config/fancymenu/images/transp.png
-  backgroundnormal = config/fancymenu/images/transp.png
-}
-
-customization {
-  identifier = %id=400298%
-  action = sethoverlabel
-  label = S
-}
-
-customization {
-  identifier = %id=400322%
   action = hidebutton
 }
 
@@ -124,23 +129,6 @@ customization {
 }
 
 customization {
-  hoversound = config/fancymenu/audio/hover.wav
-  orientation = mid-centered
-  onlydisplayin = outgame
-  buttonaction = opencustomgui
-  backgroundhovered = config/fancymenu/images/play_hover.png
-  label = 
-  clicksound = config/fancymenu/audio/click.wav
-  x = -10
-  width = 20
-  action = addbutton
-  y = -10
-  backgroundnormal = config/fancymenu/images/play.png
-  value = playmode
-  height = 20
-}
-
-customization {
   showname = true
   orientation = bottom-right
   crouching = false
@@ -154,15 +142,20 @@ customization {
 }
 
 customization {
-  showname = true
   orientation = mid-centered
-  crouching = false
-  x = 0
   slim = false
+  scale = 10
+  headrotationy = 0.0
+  headrotationx = 0.0
+  autorotation = false
+  showname = true
+  crouching = false
+  x = 187
   action = addentity
-  y = -17
-  scale = 30
+  y = -51
   playername = %playername%
+  bodyrotationx = 123.0
+  bodyrotationy = 15.0
   parrot = false
 }
 
@@ -179,7 +172,7 @@ customization {
 
 customization {
   hideforseconds = 10.0
-  orientation = mid-centered
+  orientation = top-centered
   buttonaction = openlink
   backgroundhovered = config/fancymenu/images/transp.png
   label = What are you doing? Play!
@@ -187,25 +180,9 @@ customization {
   x = -69
   width = 139
   action = addbutton
-  y = 10
+  y = 5
   backgroundnormal = config/fancymenu/images/transp.png
   value = 
-  height = 20
-}
-
-customization {
-  hoversound = config/fancymenu/audio/hover.wav
-  orientation = mid-centered
-  buttonaction = opencustomgui
-  backgroundhovered = config/fancymenu/images/quit_hover.png
-  label = 
-  clicksound = config/fancymenu/audio/click.wav
-  x = 10
-  width = 20
-  action = addbutton
-  y = -10
-  backgroundnormal = config/fancymenu/images/quit.png
-  value = quit
   height = 20
 }
 
@@ -221,14 +198,18 @@ customization {
 }
 
 customization {
-  orientation = top-left
-  buttonaction = opengui
-  x = 121
-  width = 100
+  hoversound = config/fancymenu/audio/hover.wav
+  orientation = mid-centered
+  buttonaction = quitgame
+  backgroundhovered = config/fancymenu/images/quith.png
+  label = 
+  clicksound = config/fancymenu/audio/click.wav
+  x = -25
+  width = 64
   action = addbutton
-  y = 107
-  label = d
-  value = net.minecraft.client.gui.screen.MemoryErrorScreen
-  height = 20
+  y = -106
+  backgroundnormal = config/fancymenu/images/quit.png
+  value = 
+  height = 64
 }
 

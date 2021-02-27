@@ -1,0 +1,46 @@
+type = menu
+
+customization-meta {
+  identifier = hostServer
+  renderorder = foreground
+}
+
+customization {
+  hoversound = config/fancymenu/audio/hover.wav
+  orientation = mid-centered
+  buttonaction = openfile
+  x = -50
+  width = 100
+  action = addbutton
+  y = 10
+  label = MacOS/Linux
+  value = ../server/start.sh
+  clicksound = config/fancymenu/audio/click.wav
+  height = 20
+}
+
+customization {
+  hoversound = config/fancymenu/audio/hover.wav
+  orientation = mid-centered
+  buttonaction = openfile
+  x = -50
+  width = 100
+  action = addbutton
+  y = -25
+  label = Windows
+  value = ../server/start.cmd
+  clicksound = config/fancymenu/audio/click.wav
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  centered = false
+  x = -34
+  action = addtext
+  y = 37
+  scale = 1.0
+  value = ESC to cancel
+}
+

@@ -1,0 +1,93 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MultiplayerScreen
+  renderorder = foreground
+}
+
+customization {
+  path = config/fancymenu/images/backdrop.png
+  action = texturizebackground
+}
+
+customization {
+  identifier = %id=346948%
+  orientation = bottom-left
+  x = 0
+  action = movebutton
+  y = -20
+}
+
+customization {
+  identifier = %id=346948%
+  width = 20
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=346948%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=346948%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/images/playh.png
+  backgroundnormal = config/fancymenu/images/play.png
+}
+
+customization {
+  identifier = %id=346948%
+  action = setbuttondescription
+  description = Play Server
+}
+
+customization {
+  identifier = %id=450948%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=346972%
+  orientation = bottom-left
+  x = 40
+  action = movebutton
+  y = -20
+}
+
+customization {
+  identifier = %id=346972%
+  width = 20
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  orientation = bottom-left
+  buttonaction = opencustomgui
+  x = 20
+  width = 20
+  action = addbutton
+  y = -20
+  backgroundhovered = config/fancymenu/images/uploadh.png
+  description = Host Server
+  label = 
+  backgroundnormal = config/fancymenu/images/upload.png
+  value = hostServer
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  buttonaction = openlink
+  x = 0
+  width = 100
+  action = addbutton
+  y = 0
+  label = 
+  value = 
+  height = 20
+}
+

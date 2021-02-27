@@ -15,9 +15,6 @@ net.minecraft.client.gui.screen.ConnectingScreen {
 net.minecraft.client.gui.screen.DisconnectedScreen {
 }
 
-net.minecraft.client.gui.screen.MainMenuScreen {
-}
-
 net.minecraft.client.gui.screen.WorldSelectionScreen {
 }
 
@@ -31,5 +28,11 @@ net.minecraft.client.gui.screen.MemoryErrorScreen {
 }
 
 net.minecraft.client.gui.screen.OptionsScreen {
+}
+
+net.minecraft.client.gui.screen.MultiplayerScreen {
+}
+
+net.minecraft.client.gui.screen.MainMenuScreen {
 }
 

@@ -6,15 +6,121 @@ customization-meta {
 }
 
 customization {
+  path = config/fancymenu/images/backdrop.png
+  wideformat = true
+  action = texturizebackground
+}
+
+customization {
+  identifier = %id=346948%
   orientation = top-right
-  buttonaction = opengui
-  x = -105
-  width = 100
-  action = addbutton
+  x = -75
+  action = movebutton
   y = 5
-  label = Multiplayer
-  value = net.minecraft.client.gui.screen.MultiplayerScreen
+}
+
+customization {
+  identifier = %id=346948%
+  width = 20
+  action = resizebutton
   height = 20
+}
+
+customization {
+  identifier = %id=346948%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=346948%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/images/playh.png
+  backgroundnormal = config/fancymenu/images/play.png
+}
+
+customization {
+  identifier = %id=346972%
+  orientation = top-right
+  x = -50
+  action = movebutton
+  y = 5
+}
+
+customization {
+  identifier = %id=346972%
+  width = 20
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=346972%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=346972%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/images/edith.png
+  backgroundnormal = config/fancymenu/images/edit.png
+}
+
+customization {
+  identifier = %id=424972%
+  orientation = top-right
+  x = -25
+  action = movebutton
+  y = 5
+}
+
+customization {
+  identifier = %id=424972%
+  width = 20
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=424972%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=424972%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/images/deleteh.png
+  backgroundnormal = config/fancymenu/images/delete.png
+}
+
+customization {
+  identifier = %id=582972%
+  orientation = top-left
+  x = 30
+  action = movebutton
+  y = 5
+}
+
+customization {
+  identifier = %id=582972%
+  width = 20
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=582972%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=582972%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/images/quith.png
+  backgroundnormal = config/fancymenu/images/quit.png
 }
 
 customization {
@@ -26,6 +132,20 @@ customization {
   y = -52
   label = Open folder
   value = saves
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  buttonaction = opengui
+  x = 5
+  width = 20
+  action = addbutton
+  y = 5
+  backgroundhovered = config/fancymenu/images/multiplayerh.png
+  label = 
+  backgroundnormal = config/fancymenu/images/multiplayer.png
+  value = net.minecraft.client.gui.screen.MultiplayerScreen
   height = 20
 }
 
