@@ -28,8 +28,8 @@ S:copyrightposition = 'bottom-right';
 B:hidebranding = 'true';
 B:hidelogo = 'true';
 B:showmainmenufooter = 'false';
-B:hiderealmsnotifications = 'true';
-B:hideforgenotifications = 'true';
+B:hiderealmsnotifications = 'false';
+B:hideforgenotifications = 'false';
 
 
 ##[mainmenu_splash]
@@ -56,9 +56,9 @@ B:loadingscreendarkmode = 'true';
 ##[minecraftwindow]
 
 [A minecraft restart is required after changing this value.]
-S:customwindowtitle = 'Createoforge: Devs ran out of title names';
+S:customwindowtitle = '';
 [A minecraft restart is required after changing this value.]
-B:customwindowicon = 'true';
+B:customwindowicon = 'false';
 
 
 ##[world_loading_screen]
