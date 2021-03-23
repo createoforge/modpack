@@ -1,3 +1,3 @@
-[submodule "server/sky/datapacks/createoforge/createoforge"]
-	path = server/sky/datapacks/createoforge/createoforge
+[submodule "server/sky/datapacks/createoforge"]
+	path = server/sky/datapacks/createoforge
 	url = https://github.com/createoforge/datapack
